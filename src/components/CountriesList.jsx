@@ -10,7 +10,8 @@ export const CountriesList = ({ countries }) => {
         return (
           <Link
             className="countriesList__countryCard"
-            to={`/country-details/:${country.alpha3Code.toLowerCase()}`}
+            key={country.alpha3Code}
+            to={`/${country.alpha3Code.toLowerCase()}`}
           >
             <img
               src={`https://flagpedia.net/data/flags/icon/72x54/${countryCode}.png`}
