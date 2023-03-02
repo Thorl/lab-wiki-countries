@@ -1,7 +1,10 @@
 .navbar {
+  position: fixed;
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  width: 100vw;
   height: 50px;
   padding-left: 50px;
 

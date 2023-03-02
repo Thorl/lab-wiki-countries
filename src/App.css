@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-
 }
 
 .App-logo {
@@ -38,10 +37,7 @@
   }
 }
 
-.country-detail{
-
-}
-.country-container{
+.country-container {
   display: flex;
-
+  padding-top: 70px;
 }
